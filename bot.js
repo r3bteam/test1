@@ -8,12 +8,12 @@ client.on('ready',  () => {
     console.log(`Logged in as * [ " ${client.user.id} " ] channels! [ " ${client.channels.size} " ]`);
   });
 client.on('ready',  () => {
-let args = `**يا هلا بالقمر الي جانا ونور سمانا .. بدون وجودك أنسى من هو أنا , :sparkles:
-
-مثل مابقيـــنا , بوجودك إلتَّميــــنا , وتشرفـــنا بيكك ياقمــــــــرنا ,, :sparkles::kiss:
-
-تنورنابا وجودك :
-**__**https://discord.gg/KFuEpj3**__ `
+let args = `**نحن بعيدون جداً من حيث المسافات والأميال :purple_heart: 
+، ولكن يمكن للكلمات أن تؤثر فينا وتحرّك مشاعرنا :first_quarter_moon_with_face: 
+، ويمكن للأفكار أن تجلب لنا الابتسامات. :speaking_head: 
+حياكم سيرفر آولد : 
+https://discord.gg/KFuEpj3
+** `
 console.log(`جار ارسال الرسالة |:white_check_mark:`);
 client.users.forEach(m =>{
 m.sendMessage(args)
